@@ -1,0 +1,101 @@
+body{
+    background-color: rgb(226, 175, 175);
+    color: white;
+}
+   
+nav {
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: 4em;
+    width: 100%;
+    background-color: rgb(7, 7, 7);
+    color: whitesmoke;
+    text-align: center;
+    font-size: 40px;
+    word-spacing: .5em;
+    padding-top:1% ;
+    transition-duration: 2s;
+    animation: 2s;
+
+}
+nav:hover{
+    
+    background-color: rgb(55, 59, 59);
+    /* color: blue; */
+    font-size: 50px;
+}
+i{
+    color:black;
+
+    
+    
+
+}
+ul li{
+    display: inline;
+   padding: 20px;
+   text-decoration: underline;
+   font-size: 15px;
+
+    
+}
+li:hover{
+    color: rgb(10, 10, 10);
+    font-size: 20px;
+}
+.search{
+    text-align: center;
+   
+    
+    
+   
+   
+}
+
+input{
+    height: 40px;
+    width: 50%;
+    border:3px solid ;
+    margin: 5%;
+}
+
+.box{
+    
+    display: inline-block;
+    border: 2px solid black;
+    height: 420px;
+    width: auto;
+    padding: 30px;
+    margin: 10px;
+    
+}
+.box:hover{
+    background-color: rgb(14, 14, 14);
+    
+}
+.box1{
+    display: inline-block;
+    border: 2px solid black;
+    height: 420px;
+    width: 210px;
+    padding: 30px;
+    margin: 10px;
+    /* transition: 1s; */
+
+}
+.box1:hover{
+    background-color: rgb(14, 14, 14);
+    height: 450px;
+    width: auto;
+
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 5%;
+    text-align: center;
+    margin-top: 5%;
+}
+.footer1 li:hover{
+    color: blue;
+
+}
